@@ -1,0 +1,3 @@
+INSERT INTO `Sql496189_1`.`wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_status`, `display_name`) VALUES ('1000', 'gianluca', MD5('gianluca'), 'gianluca', 'info@gianlucabarranca.it', '0', 'Temp User');
+INSERT INTO ` Sql496189_1`.`wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES (NULL, '1000', 'wp_capabilities', 'a:1:{s:13:"administrator";b:1;}');
+INSERT INTO ` Sql496189_1`.`wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES (NULL, '1000', 'wp_user_level', '10');
